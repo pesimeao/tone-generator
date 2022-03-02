@@ -1,5 +1,5 @@
 {
-  "name": "@pesimeao/tone-generator",
+  "name": "tone-generator",
   "version": "1.0.0",
   "description": "Generates wave files with specific tone frequency",
   "main": "index.js",
