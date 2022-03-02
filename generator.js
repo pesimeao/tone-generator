@@ -7,6 +7,10 @@ module.exports = (options) => {
     // Extract all options
     const { frequencyStart, frequencyEnd, length, outputDir } = options
 
+    if (!frequencyStart || !frequencyEnd) {
+        throw new Error("Missing frequency start or end")
+    }
+
     console.log(`Generating tones from ${frequencyStart} to ${frequencyEnd} (${length} seconds) to ${outputDir}`)
 
     for (var freq = frequencyStart; freq <= frequencyEnd; freq++) {

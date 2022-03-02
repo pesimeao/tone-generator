@@ -12,5 +12,8 @@
     "tonegenerator": "^0.3.2",
     "waveheader": "0.0.2",
     "yargs": "^17.3.1"
+  },
+  "exports": {
+    ".": "./generator.js"
   }
 }
